@@ -1,5 +1,4 @@
-RMActionController [![Build Status](https://travis-ci.org/CooperRS/RMActionController.svg?branch=master)](https://travis-ci.org/CooperRS/RMActionController/) [![Pod Version](https://img.shields.io/cocoapods/v/RMActionController.svg)](https://cocoapods.org/pods/RMActionController) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-====================
+# RMActionController 
 
 This framework allows you to present just any view as an action sheet. In addition, it allows you to add actions around the presented view which behave like a button and can be tapped by the user. The result looks very much like an `UIActionSheet` or `UIAlertController` with a special `UIView` and some `UIActions` attached.
 
@@ -23,11 +22,6 @@ This framework allows you to present just any view as an action sheet. In additi
 
 `RMActionController` supports automatic rotation between portrait and landscape.
 
-## Installation (CocoaPods)
-```ruby
-platform :ios, '8.0'
-pod "RMActionController", "~> 1.3.1"
-```
 
 ## Usage
 
@@ -103,8 +97,8 @@ There is an additional documentation available provided by the CocoaPods team. T
 
 | Compile Time  | Runtime       |
 | :------------ | :------------ |
-| Xcode 9       | iOS 8         |
-| iOS 11 SDK    |               |
+| Xcode 12      | iOS 10        |
+| iOS 10 SDK    |               |
 | ARC           |               |
 
 Note: ARC can be turned on and off on a per file basis.
